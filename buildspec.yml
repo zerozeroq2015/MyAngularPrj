@@ -6,6 +6,8 @@ phases:
       - if [ -e /tmp/node_modules.tar ]; then tar xf /tmp/node_modules.tar; fi
       - npm install
   build:
+    runtime-versions:
+      nodejs: 10
     commands:
       - npm run build
   post_build:
