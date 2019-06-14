@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { AppService } from './app.service';
+// import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -10,13 +10,14 @@ import { AppService } from './app.service';
 })
 export class AppComponent {
   
-  constructor(private appService: AppService){}
+  // constructor(private appService: AppService){}
   
   title = 'MyAngularPrj';
   
-  ngOnInit(): void {
-    this.appService.getMessage(msg => {
-      this.title == msg;  
-    })
-  }
+  // ngOnInit(): void {
+  //   this.appService.getMessage(msg => {
+  //     // this.title == msg;  
+  //     this.title = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa';  
+  //   })
+  // }
 }
