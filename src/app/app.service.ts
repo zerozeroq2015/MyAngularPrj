@@ -17,8 +17,9 @@ export interface Name {
   providedIn: 'root'
 })
 export class AppService {
-  
-  url = 'https://dxfl0gwu0m.execute-api.us-east-2.amazonaws.com/Angular01Stage/helloangular';
+   
+  // url = 'https://dxfl0gwu0m.execute-api.us-east-2.amazonaws.com/Angular01Stage/helloangular';
+  url = 'https://dxfl0gwu0m.execute-api.us-east-2.amazonaws.com/Angular01Stage/selectangular';
 
   constructor(private http: HttpClient) { }
   
